@@ -18,19 +18,25 @@ const { mainModule } = require("process")
 // promice jab ham create krtay hmay promice usi wakat mil jaata ha. jo  is bat ki yad dahani krwata ha ka.
 // promice resole or rejection ka bad hmay response milay ga. await tb lgana ha jb hmar result chahia . k tb jb ham is create kjr rhay ho.
 
-function handlePromice() {
-    const prom =  new Promise((resolve, reject) => {
-        setTimeout(() => {
-            console.log('inside Promice')
-            resolve("ok")
-        }, 1000)
-    })
-    // console.log(prom)
-    return prom
+function newF(){
+        // promice ak callback function lata ha
+        const prom =  new Promise((resolve, reject) => {
+            setTimeout(() => {
+                console.log('inside Promice')
+                resolve("ok")
+            }, 1000)
+        })
+        // console.log(prom)
+        return prom
+}
+
+function handlePromice(newF) {
+newF();
 }
 
 async function main(){
     console.log("Start")
+    // jis function na koi promice return krna ho us k lia await llgatay han
     const p = await handlePromice();
     console.log(p)
     console.log("End")
