@@ -1,0 +1,77 @@
+outline:
+
+Header File
+Scope of variables
+SCOPE OF IDENTIFIER: IDENTIFIER IS ANY NAME ANY USER CREATES IN HIS PFOGRAM
+(Functions AND variable both are adentifier)
+SCOPE mean visibility
+A variable declear inside block has visibility within that block only
+A Function define within the function has A SCOPE THAT IS FUNCTION WIDE
+gLOBLE VARIABLE: ACCESSABLE FROM EVERY WHERE
+FOR GOOD PROGRAMMING: USE MINIMUM USE OF GLOBLE VARIABLE
+TRY TO USE LOCAL VARIABLE AS MUCH AS POSSIBLE
+TYPE:
+GLOBLE SCOPE 
+FUNCTION LEVEL SCOPE
+blocK LEVEL SCOPE:
+Functions
+>Call bya value (ITS NICE BECAUSE IT SAVE US UNWANTED SIDE EFFECT)
+BY DEFAULT c IS call BY VALUE IT MEAN
+AK VARIABLE HA OR WO FUNCTION KO PASS KIA AB FUNCTION KO US KI COPY MILI HA FUNCTION CHAAHAY US CHANGE KRAY CHANGE VALUE KO RETURN KRAY 
+IS KA ORIGNAL VALIABLE PA KOI CHANGE NAI AAY GA.
+
+
+>call by referance : FOR EXAMPLE MARAY PASS AK LATTER HA HA OR US MA KOI CHANGES HA. TO MA KSI KO WO(NOT COPY) DATA HO OR KAHTA HO  KA IS LATAER MA YA 
+CHANGES KR DO WO KR DATA HA. YA ORIGNAL LATTER MA CHANGES HOI HAN. YA CALL BY REFFRANCE HA.
+
+> a FUNCTION IN WHTCH ORIGNAL VALUE OF VARIABLE CHANGED
+> TO PASS BY REFFRANCE WE CAN'T PASS VALUE, WE HAVE TO PASS MEMORY ADDRESS OF VERIABLE
+> "&" IS USED TO TAKE THE ADRESS OF VARIABLE
+VARIABLE ARE NAME OF MEMORY LOCATION
+JAHAN MEMORY LOCATION WAHA NAME B HA TO US KA PTA B HA( THERE IS MEMORY ADDRESS ASSACIATIVE WIT THAT NAME)
+MATLAB MA KAHO K WO NUMBER JO MEMOR Y ADDRESS 123 PA PRA HOA HA US NUMBER KO SQUARE KR DO OR SATHA MA UYA KAH DATA HA HON KA US KI VALUE USI MA DALL DANA
+
+POINTERS:
+POINTERS ARE USED TO PASS ADDRESS OF VARIABLES FOR REFFRANCE     
+> WE USE "&X" TO SEND THE ADDRESS OF "X".
+>TO REECEIVE THE ADDRESS WE USE "*X" (WHATEVER "X" POINT TO) 
+
+
+rECURSIVE FUNCTIONS
+> SPACIAL FUNCTION WHICH CAN CALL ITSELF
+in recusive function ma ak base case hona chahia ruknay ki jaga honi chahia. proplem is tra ka hona chahia ha us ka 2 tukray hojay, ak tukra wo jo program khud axecute kray.
+ dosra tukra wo jo barr bar repeat ho rha ha or program ki skal akhtyar kr la.
+
+Long Facturial(long n)
+{
+   //base case
+   if(n==1)
+   {
+    return n;
+   }
+else
+   return (n* factorial(n-1));
+
+}
+
+fabunaci series
+power
+
+Management Issue of computer:
+there are two issue inside a computer
+
+>Memory overhead 
+>stack overhead
+
+type of code:
+
+> elegent code
+  where price is not two high
+> efficient code
+  where price is too high
+
+
+
+
+Primitive data types are number, string, boolean, float etc.
+The non-primitive data types (Reference Type) are Array, Object etc.

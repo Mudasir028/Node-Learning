@@ -6,52 +6,52 @@ let arr =[{
       {
         "position": 1,
         "name": "diamonds",
-        "quantity": 200
+        "quantity": 20000
       },
       {
         "position": 2,
         "name": "diamonds",
-        "quantity": 100
+        "quantity": 10000
       },
       {
         "position": 3,
         "name": "diamonds",
-        "quantity": 100
+        "quantity": 10000
       },
       {
         "position": 4,
         "name": "diamonds",
-        "quantity": 100
+        "quantity": 10000
       },
       {
         "position": 5,
         "name": "diamonds",
-        "quantity": 100
+        "quantity": 10000
       },
       {
         "position": 6,
         "name": "diamonds",
-        "quantity": 50
+        "quantity": 50000
       },
       {
         "position": 7,
         "name": "diamonds",
-        "quantity": 50
+        "quantity": 50000
       },
       {
         "position": 8,
         "name": "diamonds",
-        "quantity": 50
+        "quantity": 5000
       },
       {
         "position": 9,
         "name": "diamonds",
-        "quantity": 50
+        "quantity": 50000
       },
       {
         "position": 10,
         "name": "diamonds",
-        "quantity": 50
+        "quantity": 5000
       }
     ],
     "__v": 0
